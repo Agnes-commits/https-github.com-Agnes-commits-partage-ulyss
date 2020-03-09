@@ -1,0 +1,43 @@
+@import "../style.scss";
+
+.is-forgotbtn button{  
+    border: none;
+    color: $btn_background_color;
+    background-color: transparent;
+}
+.is-formBtn button {
+    @extend %button;
+    float: right;
+}
+.is-forgotbtn {
+    margin-bottom: 10px;
+}
+.is-formBtn{
+    margin-bottom: 10px;
+    height: 20px;
+}
+.mainContent {
+    @extend %block_form;
+    margin-top: 200px;
+    width: auto;
+    height: auto;
+    text-align: center;
+    padding: 10px;
+    
+    input {
+        @extend %input;
+        &:hover, &:focus {
+            @extend %input;
+        }
+    }
+    label {
+        @extend %label;
+    }
+    
+    a{
+        @extend %a;
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}
