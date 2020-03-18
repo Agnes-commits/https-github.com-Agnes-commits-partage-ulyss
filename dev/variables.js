@@ -33,7 +33,8 @@ const Variables = {
     SIGN_UP_POLITIQUE: "Votre partie politique",
     SIGN_UP_CODE_TITLE: "Entrer le code sms envoyer sur votre telephone:",
     SIGN_UP_CODE: "Code SMS:",
-    SIGN_UP_CONFIRM: "Confirmé"
+    SIGN_UP_CONFIRM: "Confirmé",
+    SIGN_UP: "hjjjkl"
 
      
 
