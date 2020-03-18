@@ -1,0 +1,7 @@
+@import '../style.scss';
+.bttn {
+    @extend %button;
+    font-size: 18px;
+    padding: 8px;
+    width: 150px;
+}

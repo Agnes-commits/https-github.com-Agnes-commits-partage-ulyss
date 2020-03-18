@@ -1,0 +1,14 @@
+@import '../style.scss';
+
+fieldset {
+    input {
+        width: 100%;
+        border: none; 
+        padding: 5px;
+        margin: auto;
+        &:hover, &:focus {
+            border: none;
+            outline:  none;
+        }
+    }
+}

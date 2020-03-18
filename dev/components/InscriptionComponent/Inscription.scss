@@ -1,0 +1,175 @@
+@import '../style.scss';
+
+
+//design étape 1 de l'inscription
+.un, .deux {
+
+    margin: 15px 150px 15px 150px;
+    @media (max-width: 760px) {
+        margin: auto;
+    }
+
+    button {
+        margin-left: 150px;
+        margin-top: 10px;
+    }
+}
+
+.deux {
+
+    margin: 30px 150px 35px 150px;
+    @media (max-width: 760px) {
+        margin: auto;
+    }
+    form {
+        fieldset {
+            margin: 5px;
+        }
+    }
+    h3 {
+        input {
+            margin: auto 15px auto 15px;
+        }
+    }
+}
+    .card {
+
+        .deg {
+            background-image: linear-gradient(white,$btn_background_color);
+            img {
+                height: 100%;
+                width: 100%;
+            }
+        }
+        .card-body {
+            .card-title {
+                text-align: center;
+            }
+            form {
+                margin: 10px 30px auto;
+            }
+        }
+    }
+
+
+//design étape 3 de l'inscription
+.trois {
+    margin: 50px 250px 50px 250px;
+    height: 100%;
+
+    h3, h4 {
+        text-align: center;
+        top: 20px;
+        margin: 20px;
+    }
+    form {
+        text-align: center;
+        button {
+            margin: 20px;
+            margin-bottom: 80px;
+        }
+        input {
+            height: 40px;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

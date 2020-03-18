@@ -1,0 +1,63 @@
+@import "../style.scss";
+body {
+    background-color: #cfcfcf;
+}
+.navbar {
+    padding: 0px!important;
+}
+.head{
+    background-color: black;
+    margin: 0;
+    color: $text_color;
+    img {
+        margin-left: 50px ;
+        width : 50px;
+        height: auto;
+        display: block;
+    }
+
+    form {
+        margin-right: 50px;
+        input {
+            background-color: $color;
+            color: $text_color;
+            border: none;
+            height: 30px;
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+        input:hover, input:focus {
+            outline:  none;
+        }
+        .search_btn {
+            background-color: $color;
+            color: $text_color;
+            border: none;
+            height: 30px;
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+        }
+        i {
+            color: $text_color ;
+        }
+    }
+
+}
+
+.nav-button {
+    button {
+        color: $text_color;
+        padding: 5px;
+        margin-right: 10px;
+        margin-left: 10px;
+        background-color: $btn_background_color;
+        border: none;
+        border-radius: 5px;
+    }
+}
+
+@media (max-width: 726px) {
+    .navbar-brand, .searching {
+        text-align: center;
+    }
+}

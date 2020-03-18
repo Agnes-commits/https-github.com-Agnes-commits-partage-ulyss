@@ -1,0 +1,61 @@
+
+//Variables
+$background_color: #cfcfcf;
+$btn_background_color: #ef2541;
+$text_color: #f5f6f6;
+$color: #2d2930;
+$login_backgroung: '../../assets/connexion_.svg';
+
+$pc-min: "1281px";
+$tablette-min: "960px"; 
+$tablette-max: "1280px";
+$phone-max : "959px";
+
+%block_form {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+%center_block { 
+    margin: 0 auto;
+    width: 200px;
+}
+%input {
+    display: block;
+    text-align: left;
+    width: 100%;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    border-bottom: 1px solid black;
+}
+%label {
+    display: block;
+    width: 100%;
+}
+
+%button {
+    border-radius: 25px;
+    background-color:$btn_background_color;
+    color: $text_color;
+}
+
+%a, %a:hover {
+    color: $btn_background_color;
+}
+legend {
+    padding: inherit!important;
+    width: auto!important; 
+    margin-bottom: auto!important;
+    font-size: 20px!important;
+    font-weight: bolder;
+}
+fieldset {
+    border-width: 2px!important;
+    border-style: groove!important;
+    border-color: black!important;
+    border-image: initial!important;
+}
+body {
+    background-color: $background-color!important;
+}
