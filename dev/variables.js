@@ -4,7 +4,7 @@ const Variables = {
     SIGN_IN_TITLE: "Identifiez-vous ici:",
     SIGN_IN_PHONE: "Telephone:",
     SIGN_IN_PASSWORD: "Mot de passe:",
-    SIGN_IN_SAVE: "Restez connecter?",
+    SIGN_IN_SAVE: " Restez connecté",
     SIGN_IN_CONNECT: "Se connecter",
     SIGN_IN_RESET_PASSWORD: "Mot de passe oublié?",
     SIGN_IN_RESET_LINK: "Cliquez ici",

@@ -30,7 +30,7 @@ class Header extends React.Component {
                         {variables.MENU_SIGNIN}
                         </button>
                     </div> 
-                    <a className="navbar-brand logo" href="#">
+                    <a className="navbar-brand logo" href="https://cite.bj">
                          <img src={logo_deux} width="50" height="50" alt=""/>
                     </a>        
                 </div>
