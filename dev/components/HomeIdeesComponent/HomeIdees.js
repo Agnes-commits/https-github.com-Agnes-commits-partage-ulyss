@@ -12,7 +12,7 @@ import {CardLeft, CardRight} from '../CardComponent/Card'
 class HomeIdees extends React.Component {
     render(){
         return(
-            <main>
+            <main className="list-idees">
                <Titre titre={Variables.IDEES_HOME_TITLE}/>
                 <CardLeft nbrVote={38}  nbrVoteRequis={100} dateDeb="31/12/2019" dateFin="31/12/2020" titre={Variables.IDEES_HOME_TITLE_1}  contenue={Variables.lOREM} image={im_1}/>
                 <CardRight nbrVote={49}  nbrVoteRequis={100} dateDeb="31/12/2019" dateFin="31/12/2020" titre={Variables.IDEES_HOME_TITLE_2}  contenue={Variables.lOREM} image={im_2}/>

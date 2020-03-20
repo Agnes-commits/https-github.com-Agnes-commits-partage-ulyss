@@ -27,7 +27,7 @@ export const CardTop = ({nbrVote, nbrVoteRequis,dateDeb, dateFin,titre, contenue
 
 export const CardBottom = ({nbrVote, nbrVoteRequis,dateDeb, dateFin,titre, contenue,image}) => {
     return(
-        <div class="card">
+        <div class="card w-100">
         <div class="card-body">
             <h5 class="card-title">{titre}</h5>
             <p class="card-text">{contenue}</p>
@@ -45,8 +45,8 @@ export const CardBottom = ({nbrVote, nbrVoteRequis,dateDeb, dateFin,titre, conte
 
 export const CardLeft = ({nbrVote, nbrVoteRequis,dateDeb, dateFin,titre, contenue,image}) => {
     return(
-        <div className="mainContent" >
-                <div className="card" >
+        <div className="card-content" >
+                <div className="card w-100" >
                     <div className="row no-gutters">
                         <div className="col-12 col-md-5 deg">
                         <img src={image} className="card-img" alt="..."/>
@@ -73,12 +73,9 @@ export const CardLeft = ({nbrVote, nbrVoteRequis,dateDeb, dateFin,titre, contenu
 
 export const CardRight = ({nbrVote, nbrVoteRequis,dateDeb, dateFin,titre, contenue,image}) => {
     return(
-        <div className="mainContent" >
-                <div className="card" >
+        <div className="card-content" >
+                <div className="card w-100" >
                     <div className="row no-gutters">
-                        <div className="col-12 col-md-5 deg">
-                        <img src={image} className="card-img" alt="..."/>
-                        </div>
                         <div className="col-12 col-md-7">
                         <div className="card-body">
                             <h3 className="card-title">{titre}</h3>
@@ -91,6 +88,9 @@ export const CardRight = ({nbrVote, nbrVoteRequis,dateDeb, dateFin,titre, conten
                                 <Button className="btn-vote" text={Variables.IDEES_HOME_VOTER_BTN} color="#ef2541" image={doigt}/>
                             </div>
                         </div>
+                        </div>
+                        <div className="col-12 col-md-5 deg">
+                        <img src={image} className="card-img" alt="..."/>
                         </div>
                     </div>
                 </div>

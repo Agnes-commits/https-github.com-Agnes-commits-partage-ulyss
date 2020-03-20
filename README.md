@@ -1,8 +1,3 @@
-![](http://i.imgur.com/DUiL9yn.png)
-
-# React/Sass/Redux Boilerplate
-
-Boilerplate and guide for a React/Sass/Redux build.
 
 ## Getting Started
 
@@ -22,12 +17,13 @@ Start the development server (changes will now update live in browser)
 ```
 
 To view your project, go to: [http://localhost:3000/](http://localhost:3000/)
+To view your squelette, go to: [http://localhost:3000/template](http://localhost:3000/template)
+To view the different step of inscription process, go to:
+```
+        > [http://localhost:3000/inscription](http://localhost:3000/inscription)
+        > [http://localhost:3000/inscription1](http://localhost:3000/inscription1)
+        > [http://localhost:3000/inscription2](http://localhost:3000/inscription2)
+```
 
-## Links
 
-- [Donate](https://www.patreon.com/thenewboston)
-- [thenewboston.com](https://thenewboston.com/)
-- [Facebook](https://www.facebook.com/TheNewBoston-464114846956315/)
-- [Twitter](https://twitter.com/bucky_roberts)
-- [Google+](https://plus.google.com/+BuckyRoberts)
-- [reddit](https://www.reddit.com/r/thenewboston/)
+
