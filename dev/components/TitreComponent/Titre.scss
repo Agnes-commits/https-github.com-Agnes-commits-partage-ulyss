@@ -1,0 +1,11 @@
+@import '../style.scss';
+
+.titre {
+    border-radius: 5px;
+    padding: 5px;
+    background-image:linear-gradient(to right, $background_color,$btn_background_color) ;
+    h2 {
+        border-left: solid 3px $btn_background_color;
+        margin: 0px;
+    }
+}

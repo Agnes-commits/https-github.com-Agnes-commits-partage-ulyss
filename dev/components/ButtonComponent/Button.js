@@ -1,10 +1,11 @@
 import React from 'react'
 import './Button.scss'
 
-function Button({text,size,funct}) {
+function Button({text,color,image,size,funct}) {
     return(
-        <button className="bttn" > 
+        <button className="bttn" style={{backgroundColor:{color}}} > 
             {text}
+            <img src={image} alt=""/>
         </button>
     )
 }

@@ -19,11 +19,13 @@ class Connexion extends React.Component {
                             <h3 className="card-title">{Variables.SIGN_IN_TITLE}</h3>
                             <form>
                                 <Input text= {Variables.SIGN_IN_PHONE} type="text"/><br/>
-                                <Input text= {Variables.SIGN_IN_PASSWORD} type="password"/><br/>
-                                <label htmlFor="check">
-                                <input type="checkbox" id="check" className="pink-inp"/> 
-                                  { Variables.SIGN_IN_SAVE} 
-                                </label><br/>
+                                <Input text= {Variables.SIGN_IN_PASSWORD} type="password"/>
+                                <label className="container">{ Variables.SIGN_IN_SAVE}
+                                    <input type="checkbox" />
+                                    <span class="checkmark"></span>
+                                </label>
+                                
+                                <br/>
                                 <Button text={Variables.SIGN_IN_CONNECT}/>
                                 <p> {Variables.SIGN_IN_RESET_PASSWORD} 
                                 <a href="">

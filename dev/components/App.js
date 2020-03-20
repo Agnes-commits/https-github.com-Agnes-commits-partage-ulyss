@@ -1,4 +1,6 @@
 import React from 'react'
+import $ from 'jquery';
+import Popper from 'popper.js';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { BrowserRouter as Router, Switch, Route, Redirect} from 'react-router-dom'
  
@@ -19,6 +21,7 @@ import u6 from "../assets/inscription_.svg"
 import u7 from "../assets/undraw_discount_d4bd.svg"
 import u8 from "../assets/undraw_true_friends_c94g.svg"
 import u9 from "../assets/undraw_typewriter_i8xd.svg"
+import HomeIdees from './HomeIdeesComponent/HomeIdees';
 
 class App extends React.Component {
     
@@ -63,6 +66,12 @@ class App extends React.Component {
                                         <Header/>
                                         <Menu hide={true}/>
                                         <InscriptionStepThree/>
+                                        <Footer/>
+                                </Route>
+                                <Route exact={true} path="/homeidees">
+                                        <Header/>
+                                        <Menu hide={true}/>
+                                        <HomeIdees/>
                                         <Footer/>
                                 </Route>
                         </Switch>
