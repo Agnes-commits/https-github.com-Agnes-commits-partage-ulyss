@@ -16,8 +16,8 @@ export const CardTop = ({nbrVote, nbrVoteRequis,dateDeb, dateFin,titre, contenue
             <p className="card-text">{contenue}</p>
             <Stat nbrVote={nbrVote} nbrVoteRequis={nbrVoteRequis} dateDeb={dateDeb} dateFin={dateFin}/>
             <div className="card-btn">
-                <Button className="btn-info" text={Variables.IDEES_HOME_INFO_BTN} color="black" image=""/>
-                <Button className="btn-vote" text={Variables.IDEES_HOME_VOTER_BTN} color="#ef2541" image={doigt}/>
+                <Button position="left" text={Variables.IDEES_HOME_INFO_BTN} color="black" image=""/>
+                <Button position="right" text={Variables.IDEES_HOME_VOTER_BTN} color="#ef2541" image={doigt}/>
             </div>
         </div>
         </div>
@@ -33,8 +33,8 @@ export const CardBottom = ({nbrVote, nbrVoteRequis,dateDeb, dateFin,titre, conte
             <p class="card-text">{contenue}</p>
             <Stat nbrVote={nbrVote} nbrVoteRequis={nbrVoteRequis} dateDeb={dateDeb} dateFin={dateFin}/>
                 <div className="card-btn">
-                    <Button className="btn-info" text={Variables.IDEES_HOME_INFO_BTN} color="black" image=""/>
-                    <Button className="btn-vote" text={Variables.IDEES_HOME_VOTER_BTN} color="#ef2541" image={doigt}/>
+                    <Button position="left" text={Variables.IDEES_HOME_INFO_BTN} color="black" image=""/>
+                    <Button position="right" text={Variables.IDEES_HOME_VOTER_BTN} color="#ef2541" image={doigt}/>
                 </div>
                 </div>
                     <img class="card-img-bottom" src={image} alt="Card image cap"/>
@@ -48,7 +48,7 @@ export const CardLeft = ({nbrVote, nbrVoteRequis,dateDeb, dateFin,titre, contenu
         <div className="card-content" >
                 <div className="card w-100" >
                     <div className="row no-gutters">
-                        <div className="col-12 col-md-5 deg">
+                        <div className="col-12 col-md-5">
                         <img src={image} className="card-img" alt="..."/>
                         </div>
                         <div className="col-12 col-md-7">
@@ -59,8 +59,8 @@ export const CardLeft = ({nbrVote, nbrVoteRequis,dateDeb, dateFin,titre, contenu
                             </p>
                             <Stat nbrVote={nbrVote} nbrVoteRequis={nbrVoteRequis} dateDeb={dateDeb} dateFin={dateFin}/>
                             <div className="card-btn">
-                                <Button className="btn-info" text={Variables.IDEES_HOME_INFO_BTN} color="black" image=""/>
-                                <Button className="btn-vote" text={Variables.IDEES_HOME_VOTER_BTN} color="#ef2541" image={doigt}/>
+                                <Button position="left" text={Variables.IDEES_HOME_INFO_BTN} color="black" image=""/>
+                                <Button position="right" text={Variables.IDEES_HOME_VOTER_BTN} color="#ef2541" image={doigt}/>
                             </div>
                         </div>
                         </div>
@@ -83,13 +83,13 @@ export const CardRight = ({nbrVote, nbrVoteRequis,dateDeb, dateFin,titre, conten
                                 {contenue}
                             </p>
                             <Stat nbrVote={nbrVote} nbrVoteRequis={nbrVoteRequis} dateDeb={dateDeb} dateFin={dateFin}/>
-                            <div className="card-btn">
-                                <Button className="btn-info" text={Variables.IDEES_HOME_INFO_BTN} color="black" image=""/>
-                                <Button className="btn-vote" text={Variables.IDEES_HOME_VOTER_BTN} color="#ef2541" image={doigt}/>
+                            <div className="card-btn" style={{marginBottom:"100px"}}>
+                                <Button position="left" text={Variables.IDEES_HOME_INFO_BTN} color="black" image=""/>
+                                <Button position="right" text={Variables.IDEES_HOME_VOTER_BTN} color="#ef2541" image={doigt}/>
                             </div>
                         </div>
                         </div>
-                        <div className="col-12 col-md-5 deg">
+                        <div className="col-12 col-md-5 ">
                         <img src={image} className="card-img" alt="..."/>
                         </div>
                     </div>

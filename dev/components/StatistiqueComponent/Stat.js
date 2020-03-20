@@ -4,9 +4,9 @@ import Variables from '../../variables'
 
 const Stat = ({nbrVote, nbrVoteRequis,dateDeb, dateFin}) => {
     return(
-        <div className="container">
-            <div className="row">
-                <div className="col-md-3">
+        <div className="container" style={{padding:"0px!important"}}>
+            <div className="row" style={{border:"solid 1px black"}}>
+                <div className="col-md-4">
                     <div className="graph_circle">
 
                     </div>
@@ -14,7 +14,7 @@ const Stat = ({nbrVote, nbrVoteRequis,dateDeb, dateFin}) => {
                         {nbrVote}/{nbrVoteRequis}
                     </p>
                 </div>
-                <div className="col-md-3 milieu">
+                <div className="col-md-4 milieu">
                     <h4>
                         {Variables.IDEES_DATE}
                     </h4>
